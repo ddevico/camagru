@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="../css/index.css" rel="stylesheet" media="all" type="text/css">
+		<title>CAMAGRU</title>
+	</head>
+	<body>
+		<section>
+			<div class="form-container">
+				<div class="form-inner">
+					<div class="info">
+						<p class="sign-in">SIGN IN</p>
+					</div>
+					<form action="../../server/login.php" method="POST">
+						<div class="sign-in-input">
+							<div class="input-contain">
+								<div class="warp">
+									<input type="text" placeholder="login" name="login"/>
+								</div>
+								<div class="warp">
+									<input type="password" placeholder="Password" class="tabIgnore" name="passwd"/>
+								</div>
+							</div>
+						</div>
+						<div class="forget-pass">
+							<a href="forget.html">Forget your password ?</a>
+						</div>
+						<div class="app-register">
+							Don't have an account ? <a href="sign_up.html">Sign Up</a>
+						</div>
+						<input style="margin-top: 2%" class="mention-info" type="submit" name="submit" value="Submit"></input>
+					</form>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
